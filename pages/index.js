@@ -18,7 +18,7 @@ export default function Home() {
       id: 1,
       title: '第一次来乌兰察布怎么玩🔥',
       cover: '/images/1.png',
-      description: '第一次来乌兰察布怎么玩🔥',
+      description: '凉城',
       videoUrl: '/videos/1.mp4',
     },
     {
@@ -285,3 +285,5 @@ export default function Home() {
     </div>
   )
 }
+
+
