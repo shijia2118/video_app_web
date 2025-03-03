@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', // ✅ 指定静态导出模式
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  output: "export",
   images: {
-    unoptimized: true, // ✅ 允许 `next/image` 组件在静态导出时正常工作
+    unoptimized: true,
   },
-}
-
-module.exports = nextConfig
+};
