@@ -196,6 +196,7 @@
       "dynamicIO": false,
       "inlineCss": false,
       "useCache": false,
+      "webpackBuildCache": false,
       "optimizePackageImports": [
         "lucide-react",
         "date-fns",

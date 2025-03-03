@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    webpackBuildCache: false, // 关闭 Webpack 缓存
+  },
 }
 
 export default nextConfig

@@ -23,9 +23,9 @@ export default function Home() {
     },
     {
       id: 2,
-      title: '苏木山表演',
+      title: '腕间生莲，福运连连！',
       cover: '/images/2.png',
-      description: '苏木山表演',
+      description: '腕间生莲，福运连连！',
       videoUrl: '/videos/2.mp4',
     },
     {
@@ -285,5 +285,3 @@ export default function Home() {
     </div>
   )
 }
-
-
