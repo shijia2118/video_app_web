@@ -268,6 +268,20 @@ export default function Home() {
           />
         </div>
       </div>
+
+      {/* 备案信息 */}
+      <footer
+        style={{
+          textAlign: 'center',
+          padding: '20px 0',
+          backgroundColor: '#bdbdbd',
+          color: '#ffffff',
+          fontSize: '18px',
+          marginTop: '50px',
+        }}
+      >
+        ICP主题备案号：蒙ICP备17004825
+      </footer>
     </div>
   )
 }
